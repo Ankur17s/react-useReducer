@@ -30,9 +30,9 @@ export default function App() {
 
   return (
     <div>
-      <button onClick={() => dispatch({type: "Decre"})}>-</button>
+      <button onClick={() => dispatch({type: "Decre"})} className="minus">Decrement</button>
       {state}
-      <button onClick={() => dispatch({type: "Incre"})}>+</button>
+      <button onClick={() => dispatch({type: "Incre"})} className="plus">Increment</button>
     </div>
   );
 }

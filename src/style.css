@@ -3,3 +3,19 @@ p {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.minus{
+  background-color: tomato;
+  width: 100px;
+  height: 25px;
+  border-radius: 10px;
+  margin: 10px;
+  border: none;
+}
+.plus{
+  background-color: lightgreen;
+  width: 100px;
+  height: 25px;
+  border-radius: 10px;
+  margin: 10px;
+  border: none;
+}
